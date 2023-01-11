@@ -32,18 +32,18 @@ html{
             size: 200px;
         }
         li#nav{
-            display: inline;
             float: left;
         }
         a#nav{
-            display: block;
+            
             padding: 8px;
             color: white;
             background-color: green;
             font-decoration: none;
-            border: 4px solid black;
+            border: 3px solid black;
         }
         ul#nav{
+            display: block;
             list-style-type: none;
             margin: 0;
             padding: 0;
