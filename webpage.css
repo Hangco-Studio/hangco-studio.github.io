@@ -27,7 +27,7 @@ html{
         }
         nav{
             color: white;
-            background-color: lightblue;
+            background-color: darkgrey;
             font: times;
             size: 200px;
         }
@@ -38,7 +38,7 @@ html{
             
             padding: 8px;
             color: white;
-            background-color: lightgreen;
+            background-color: darkgreen;
             font-decoration: none;
             border: 3px solid grey;
         }
