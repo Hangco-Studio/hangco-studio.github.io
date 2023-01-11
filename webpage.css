@@ -42,3 +42,8 @@ html{
             background-color: green;
             font-decoration: none;
         }
+        ul#nav{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
