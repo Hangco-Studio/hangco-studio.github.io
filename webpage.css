@@ -38,13 +38,14 @@ html{
             
             padding: 8px;
             color: white;
-            background-color: green;
+            background-color: lightgreen;
             font-decoration: none;
-            border: 3px solid black;
+            border: 3px solid grey;
         }
         ul#nav{
             display: block;
             list-style-type: none;
             margin: 0;
             padding: 0;
+            background-color: black;
         }
