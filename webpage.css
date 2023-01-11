@@ -1,0 +1,44 @@
+html{
+            background-color: lightblue;
+        }
+        body{
+            border: 2px solid;
+            background-color: lightyellow;
+        }
+        code{
+            color: black;
+            size: 200px;
+            font: Consolas;
+        }
+        h1{
+            color: grey;
+            size: 400px;
+            font: Times New Roman;
+        }
+        a{
+            color: blue;
+            size: 200px;
+            font: Times New Roman;
+        }
+        b{
+            color: black;
+            size: 200px;
+            font: Times New Roman;
+        }
+        nav{
+            color: white;
+            background-color: blue;
+            font: times;
+            size: 200px;
+        }
+        li#nav{
+            display: inline;
+            float: left;
+        }
+        a#nav{
+            display: block;
+            padding: 8px;
+            color: white;
+            background-color: green;
+            font-decoration: none;
+        }
