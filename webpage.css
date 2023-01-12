@@ -15,7 +15,7 @@
         h1{
             color: black;
             font-size: 36px;
-            font: times;
+            font: serif;
         }
         h2{
             color: black;
@@ -28,12 +28,16 @@
         a{
             color: black;
             font-size: 12px;
-            font: times;
+            font: serif;
+            text-decoration: none;
+        }
+        a.hover{
+            color: grey;
         }
         b{
             color: black;
             font-size: 12px;
-            font: times;
+            font: serif;
             text-decoration: bold;
         }
         p{
@@ -44,7 +48,7 @@
         nav{
             color: white;
             background-color: darkgrey;
-            font: times;
+            font: serif;
             font-size: 10px;
         }
         section{
@@ -75,5 +79,6 @@
             border-right: 2px dashed black;
         }
         a#articlebar{
+            text-decoration: none;
             text-align: center;
         }
