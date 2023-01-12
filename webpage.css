@@ -68,7 +68,12 @@
             padding: 0;
             background-color: black;
         }
-        a#articlebar{
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
             border-right: 2px dashed black;
+        }
+        a#articlebar{
             text-align: center;
         }
