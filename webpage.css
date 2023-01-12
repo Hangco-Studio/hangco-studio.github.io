@@ -31,8 +31,11 @@
             font: serif;
             text-decoration: none;
         }
-        a.hover{
+        a:hover{
             color: grey;
+        }
+        a:active{
+            color: lightgrey;
         }
         b{
             color: black;
