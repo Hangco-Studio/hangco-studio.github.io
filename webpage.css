@@ -55,7 +55,6 @@ html{
             float: left;
         }
         a#nav{
-            
             padding: 8px;
             color: white;
             background-color: darkgreen;
@@ -68,4 +67,8 @@ html{
             margin: 0;
             padding: 0;
             background-color: black;
+        }
+        a#articlebar{
+            border-right: 2px dashed black;
+            text-align: center;
         }
