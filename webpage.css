@@ -71,6 +71,12 @@
             text-decoration: none;
             border: 3px solid grey;
         }
+        a#nav:hover{
+            background-color: green;
+        }
+        a#nav:active{
+            background-color: #00A500;
+        }
         ul#nav{
             display: block;
             list-style-type: none;
