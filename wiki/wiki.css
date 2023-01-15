@@ -1,0 +1,7 @@
+p#heimu {
+	background-color: black;
+	color: black;
+}
+p#heimu.hover {
+	background-color: white;
+}
