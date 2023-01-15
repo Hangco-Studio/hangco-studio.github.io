@@ -15,6 +15,19 @@
             <a href="https://hangco-studio.github.io/wiki/index.html" id=nav>HSH Wiki</a>
         </ul>
     </nav><br>
+	<script>
+		var browserType=navigator.userAgent();
+		var ifIE=browserType.indexOf("MSIE ");
+		if(ifIE>0) {
+			// 输出IE版本
+			document.write("<h1>您在使用Internet Explorer ");
+			document.write(parseFloat(browserType.substring(ifIE+5, browserType.indexOf(";", ifIE))));
+			document.write("！</h1>");
+
+			// 输出“下载浏览器”界面
+			document.write("<h1>为了兼容性，请下载其它浏览器！<a href=\"downNav.html\">点我下载</a></h1>");
+		}
+	</script>
     <h2>Hangco的主页</h2>
     <p>这里是Hangco的主页，您可以点击上方的导航栏来到达对应的网页。<br></p>
     <section>
