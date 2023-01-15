@@ -5,18 +5,17 @@
             border: 2px solid black;
             background-color: lightyellow;
             padding: 5px;
+            font-family: serif;
+            font-size: 12px;
         }
         code{
             color: black;
-            font-size: 12px;
             background-color: lightgrey;
-            border: 1px solid black;
-            font: monospace;
+            font-family: monospace;
         }
         h1{
             color: black;
             font-size: 36px;
-            font: serif;
         }
         h2{
             color: black;
@@ -26,9 +25,12 @@
             color: black;
             font-size: 20px;
         }
+        h4{
+            color:black;
+            font-size: 15px;
+        }
         a{
             color: black;
-            font-size: 12px;
             font: serif;
             text-decoration: underline;
         }
@@ -56,9 +58,8 @@
             font-size: 10px;
         }
         section{
-            padding: 5px;
-            border: 2px solid black;
-            background-color: lightyellow;
+            padding: 4px;
+            border: 1px solid black;
         }
         li#nav{
             float: left;
@@ -76,12 +77,6 @@
             margin: 0;
             padding: 0;
             background-color: black;
-        }
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            border-right: 2px dashed black;
         }
         a#articlebar{
             text-decoration: none;
