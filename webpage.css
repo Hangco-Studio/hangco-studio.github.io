@@ -51,6 +51,11 @@
             font-size: 12px;
             text-decoration: none;
         }
+        p#messagebar{
+            color: black;
+            background-color: white;
+            text-align: center;
+        }
         nav{
             color: white;
             background-color: darkgrey;
