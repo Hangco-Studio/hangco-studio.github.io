@@ -2,11 +2,13 @@
             background-color: lightblue;
         }
         body{
-            border: 2px solid black;
+            border: 3px solid black;
+            border-left: 2px solid black;
+            border-top: 2px solid black;
             background-color: lightyellow;
             padding: 5px;
             font-family: serif;
-            font-size: 12px;
+            font-size: 14px;
         }
         code{
             color: black;
@@ -16,20 +18,24 @@
         h1{
             color: black;
             font-size: 36px;
+            text-decoration: bold;
         }
         h2{
             color: black;
             font-size: 24px;
+            text-decoration: bold;
         }
         h3{
             color: black;
             font-size: 20px;
             padding: 0px;
+            text-decoration: bold;
         }
         h4{
             color:black;
             font-size: 15px;
             padding: 0px;
+            text-decoration: bold;
         }
         a{
             color: black;
@@ -42,15 +48,18 @@
         a:active{
             color: lightgrey;
         }
+        a:visited{
+            color: black;
+        }
         b{
             color: black;
-            font-size: 12px;
+            font-size: 14px;
             font: serif;
             text-decoration: bold;
         }
         p{
             color: black;
-            font-size: 12px;
+            font-size: 14px;
             text-decoration: none;
         }
         p#messagebar{
@@ -76,13 +85,20 @@
             color: white;
             background-color: darkgreen;
             text-decoration: none;
-            border: 3px solid grey;
+            border-bottom: 3px solid lightgrey;
+            border-left: 2px solid grey;
+            border-top: 2px solid grey;
+            border-right: 2px solid grey;
         }
         a#nav:hover{
             background-color: green;
         }
         a#nav:active{
             background-color: #00A500;
+            border-bottom: 4px solid grey;
+            //border-left: 3px solid lightgrey;
+            border-top: 3px solid lightgrey;
+            border-right: 2px solid lightgrey;
         }
         ul#nav{
             display: block;
