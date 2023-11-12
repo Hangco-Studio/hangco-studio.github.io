@@ -6,3 +6,12 @@ p#word{
 	font-size:20px;
 	text-indent: 40px;
 }
+p[fonttype="songti"]{
+	font-family: "宋体-方正超大字符集", "宋体", "华文宋体", "华文中宋", serif;
+}
+p[fonttype="fangsong"]{
+	font-family: "仿宋", "华文仿宋", serif;
+}
+p[fonttype="computer"]{
+	font-family: "Unifont", "仿宋", "Cascadia Code", "Courier New", "Courier", monospace;
+}
