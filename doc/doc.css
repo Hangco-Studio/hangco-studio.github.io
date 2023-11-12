@@ -1,3 +1,8 @@
-h*#middle{
-	text-align: middle;
+h2#middle{
+	font-size: 30px;
+	text-align: center;
+}
+p#word{
+	font-size:20px;
+	text-indent: 40px;
 }
